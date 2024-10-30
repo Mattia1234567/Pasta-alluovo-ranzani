@@ -16,13 +16,13 @@ body {
 
 /* Header */
 header {
-    background-color: #ffcc00; /* Giallo brillante */
+    background-color: #ffcc00;
     padding: 40px 20px;
     text-align: center;
 }
 
 header h1 {
-    color: #1dbf73; /* Verde brillante */
+    color: #1dbf73;
     font-size: 2.2em;
     line-height: 1.2;
     font-weight: 600;
@@ -30,7 +30,7 @@ header h1 {
 
 header button {
     margin-top: 20px;
-    background-color: #1dbf73; /* Verde brillante */
+    background-color: #1dbf73;
     color: #fff;
     font-size: 1em;
     padding: 10px 20px;
@@ -91,12 +91,25 @@ header button:hover {
     margin-bottom: 10px;
 }
 
-/* Footer */
-footer {
+/* Sezione Contatti e Dove Siamo */
+#contatti, #dove-siamo {
+    padding: 40px 20px;
     text-align: center;
-    padding: 20px;
-    background-color: #ffcc00;
-    color: #1dbf73;
-    font-size: 0.9em;
-    margin-top: 20px;
+    background-color: #f9f9f9;
 }
+
+#contatti h2, #dove-siamo h2 {
+    color: #1dbf73;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#contatti p, #dove-siamo p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+#contatti a, #dove-siamo a {
+    color: #1dbf73;
+    text
