@@ -9,26 +9,26 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f8f3e7; /* Colore di sfondo beige chiaro */
 }
 
 /* Header */
 header {
-    background-color: #ffcc00;
+    background-color: #f9e8c7; /* Colore di sfondo beige */
     padding: 40px 20px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    color: #1dbf73;
+    color: #4b3c27; /* Colore marrone scuro per il titolo */
     font-size: 2.2em;
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
-    color: #555;
+    color: #7c6d5e; /* Colore marrone chiaro per il sottotitolo */
 }
 
 nav {
@@ -38,13 +38,13 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #1dbf73;
+    color: #4b3c27; /* Colore marrone scuro per i link */
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #148f5d;
+    color: #3b3226; /* Colore marrone più scuro al passaggio del mouse */
 }
 
 /* Sezione Prodotti */
@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 #prodotti h2 {
-    color: #1dbf73;
+    color: #4b3c27; /* Colore marrone scuro */
     font-size: 1.8em;
     margin-bottom: 20px;
 }
@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .product-item {
-    background-color: #fff;
+    background-color: #fff; /* Colore bianco per i prodotti */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -85,9 +85,9 @@ nav a:hover {
     margin-bottom: 10px; /* Spazio tra immagine e testo */
 }
 
-
+/* Sezioni Contatti e Dove Siamo */
 #contatti h2, #dove-siamo h2 {
-    color: #1dbf73;
+    color: #4b3c27; /* Colore marrone scuro */
     font-size: 1.8em;
     margin-bottom: 15px;
 }
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 #contatti a, #dove-siamo a {
-    color: #1dbf73;
+    color: #4b3c27; /* Colore marrone scuro */
     text-decoration: none;
     font-weight: 600;
 }
@@ -113,6 +113,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #ffcc00;
+    background-color: #f9e8c7; /* Colore di sfondo beige */
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    color: #4b3c27; /* Colore marrone scuro per il testo del footer */
 }
