@@ -17,4 +17,116 @@ header {
     background-color: #ffcc00;
     padding: 40px 20px;
     text-align: center;
-    box-shadow: 0 4px
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #1dbf73;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1dbf73;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #148f5d;
+}
+
+/* Sezione Prodotti */
+#prodotti {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#prodotti h2 {
+    color: #1dbf73;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    transition: transform 0.3s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-image-placeholder {
+    background-color: #e0e0e0;
+    color: #888;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Sezione Contatti e Dove Siamo */
+#contatti, #dove-siamo {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#contatti h2, #dove-siamo h2 {
+    color: #1dbf73;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#contatti p, #dove-siamo p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+#contatti a, #dove-siamo a {
+    color: #1dbf73;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Stile Mappa */
+#dove-siamo img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffcc00;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
