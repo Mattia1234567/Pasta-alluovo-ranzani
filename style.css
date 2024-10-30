@@ -1,7 +1,7 @@
-/* Importa il font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* Importa font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
-/* Stile di base */
+/* Stile base */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,36 +9,94 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #333;
-    background: linear-gradient(135deg, #f0f9f0, #ccf1d8);
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #f9f9f9;
 }
 
 /* Header */
 header {
-    background-color: #f2c100;
-    padding: 20px;
+    background-color: #ffcc00; /* Giallo brillante */
+    padding: 40px 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    color: #1dbf73;
-    font-size: 2em;
+    color: #1dbf73; /* Verde brillante */
+    font-size: 2.2em;
+    line-height: 1.2;
     font-weight: 600;
 }
 
-header p {
-    margin-top: 10px;
+header button {
+    margin-top: 20px;
+    background-color: #1dbf73; /* Verde brillante */
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-header a {
+header button:hover {
+    background-color: #16a362;
+}
+
+/* Sezione Prodotti */
+#prodotti {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#prodotti h2 {
     color: #1dbf73;
+    font-size: 1.8em;
+    margin-bottom: 20px;
     font-weight: 600;
-    text-decoration: none;
-    transition: color 0.3s;
 }
 
-header a:hov…
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    transition: transform 0.3s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-image-placeholder {
+    background-color: #e0e0e0;
+    color: #888;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00;
+    color: #1dbf73;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
