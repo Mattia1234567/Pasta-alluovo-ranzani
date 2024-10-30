@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culo</title>
     <title>Pasta all'uovo Sandro Ranzani</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- FontAwesome per icona Instagram -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Pasta all'uovo Sandro Ranzani</h1>
-        <p>
-            <a href="https://www.instagram.com/pastaalluovosandroranzani" target="_blank">
-                <i class="fab fa-instagram"></i> @pastaalluovosandroranzani
-            </a>
-        </p>
-    </header>
+<header>
+<h1>Pasta all'uovo Sandro Ranzani</h1>
+<nav>
+<a href="#chi-siamo">Chi Siamo</a>
+<a href="#prodotti">Prodotti</a>
+<a href="#galleria">Galleria</a>
+<a href="#contatti">Contatti</a>
+</nav>
+</header>
 
-    <section id="prodotti">
-        <h2>I Nostri Prodotti</h2>
-        <div class="product-list">
-            <div class="product">
-                <h3>Tagliatelle</h3>
-                <p>€5.00</p>
-                <div class="counter">
-                    <button onclick="decrease('tagliatelle')">-</button>
-                    <span id="tagliatelle">0</span>
-                    <button onclick="increase('tagliatelle')">+</button>
-                </div>
-            </div>
-            <div class="product">
-                <h3>Ravioli</h3>
-                <p>€7.00</p>
-                <div class="counter">
-                    <button onclick="decrease('ravioli')">-</button>
-                    <span id="ravi
+<section id="chi-siamo">
+<h2>Chi Siamo</h2>
+<p>Benvenuti da Pasta all'uovo Sandro Ranzani, dove la tradizione e la qualità sono di casa. Ogni giorno prepariamo pasta fresca con ingredienti di prima scelta.</p>
+</section>
+
+<section id="prodotti">
+<h2>I Nostri Prodotti</h2>
+<ul>
+<li>Tagliatelle</li>
+<li>Ravioli</li>
+<li>Gnocchi</li>
+<li>Lasagne</li>
+</ul>
+</section>
+
+<!-- Sezione Galleria -->
+<section id="galleria">
+<h2>La Nostra Pasta</h2>
+<div class="gallery">
+<div class="gallery-item"><img src="fettuccine.jpg" alt="Fettuccine"></div>
+<div class="gallery-item"><img src="ravioli.jpg" alt="Ravioli"></div>
+<div class="gallery-item"><img src="gnocchi.jpg" alt="Gnocchi"></div>
+<div class="gallery-item"><img src="lasagne.jpg" alt="Lasagne"></div>
+</div>
+</section>
+
+<section id="contatti">
+<h2>Contattaci</h2>
+<p>Il nostro instagram: @pastaalluovosandroranzani</p>
+<p>Telefono: 3405586109</p>
+</section>
+
+<footer>
+<p>&copy; 2024 Pasta all'uovo Sandro Ranzani</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
