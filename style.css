@@ -9,26 +9,25 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: #333;
-    background-color: #f8f3e7; /* Colore di sfondo beige chiaro */
+    background-color: #f9f9f9; /* Colore di sfondo chiaro */
 }
 
 /* Header */
 header {
-    background-color: #f9e8c7; /* Colore di sfondo beige */
+    background-color: #ffcc00; /* Colore giallo */
     padding: 40px 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    color: #4b3c27; /* Colore marrone scuro per il titolo */
-    font-size: 2.2em;
-    margin-bottom: 10px;
+    color: #d32f2f; /* Colore rosso scuro per il titolo */
+    font-size: 2.5em;
 }
 
 header p {
     font-size: 1.2em;
-    color: #7c6d5e; /* Colore marrone chiaro per il sottotitolo */
+    color: #555;
 }
 
 nav {
@@ -38,13 +37,13 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #4b3c27; /* Colore marrone scuro per i link */
+    color: #d32f2f; /* Colore rosso scuro per i link */
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #3b3226; /* Colore marrone più scuro al passaggio del mouse */
+    color: #9c27b0; /* Colore viola al passaggio del mouse */
 }
 
 /* Sezione Prodotti */
@@ -54,8 +53,8 @@ nav a:hover {
 }
 
 #prodotti h2 {
-    color: #4b3c27; /* Colore marrone scuro */
-    font-size: 1.8em;
+    color: #d32f2f; /* Colore rosso scuro */
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
@@ -75,7 +74,6 @@ nav a:hover {
     text-align: center;
     font-size: 0.9em;
     color: #333;
-    transition: transform 0.3s;
 }
 
 .product-image {
@@ -85,10 +83,15 @@ nav a:hover {
     margin-bottom: 10px; /* Spazio tra immagine e testo */
 }
 
-/* Sezioni Contatti e Dove Siamo */
+/* Sezione Contatti e Dove Siamo */
+#contatti, #dove-siamo {
+    padding: 40px 20px;
+    text-align: center;
+}
+
 #contatti h2, #dove-siamo h2 {
-    color: #4b3c27; /* Colore marrone scuro */
-    font-size: 1.8em;
+    color: #d32f2f; /* Colore rosso scuro */
+    font-size: 2em;
     margin-bottom: 15px;
 }
 
@@ -98,22 +101,15 @@ nav a:hover {
 }
 
 #contatti a, #dove-siamo a {
-    color: #4b3c27; /* Colore marrone scuro */
+    color: #d32f2f; /* Colore rosso scuro */
     text-decoration: none;
     font-weight: 600;
-}
-
-/* Stile Mappa */
-#dove-siamo img {
-    margin-top: 10px;
-    border-radius: 5px;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #f9e8c7; /* Colore di sfondo beige */
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
-    color: #4b3c27; /* Colore marrone scuro per il testo del footer */
+    background-color: #ffcc00; /* Colore giallo */
+    color: #333; /* Colore testo footer */
 }
